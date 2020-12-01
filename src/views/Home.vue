@@ -12,8 +12,8 @@
           </div>
           <div class="card">
             <div class="card-header">
-              <p>Category: {{value.category.name}}</p><br>
-              <p>{{ value.name }}</p>
+              <p style="margin: 10px 0">Category: {{value.category.name}}</p><br>
+              <p  style="margin-top: 10px">{{ value.name }}</p>
               <img class="img" :src="value.stuff.image_url" alt="" />
             </div>
             <p class="price">
@@ -44,7 +44,7 @@
           </div>
           <div class="card">
             <div class="card-header">
-              <p>{{ value.name }}</p>
+              <p style="margin-top: 10px">{{ value.name }}</p>
               <img class="img" :src="value.stuff.image_url" alt="" />
             </div>
             <p class="price">
